@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "149822088261",
+    "project_id": "imable1",
+    "storage_bucket": "imable1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:149822088261:android:0105f165c62bb11416af2c",
+        "android_client_info": {
+          "package_name": "com.example.imable1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "149822088261-g3re72sp0phsfl502dhdoqu2t8a2kgp2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrjahP8ZJYI3pMHJP_Zv1oxffwMnGpfFI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "149822088261-g3re72sp0phsfl502dhdoqu2t8a2kgp2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

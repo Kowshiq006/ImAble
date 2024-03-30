@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".blogs"
+    android:background="@drawable/blogupload">
+
+
+    <ImageView
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/applogo" />
+
+    <Button
+        android:id="@+id/hooomee"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="345dp"
+        android:layout_marginRight="345dp"
+        android:background="@drawable/back_button" />
+
+
+    <Button
+        android:id="@+id/button_choose_image11"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_below="@+id/image_view11"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="216dp"
+        android:layout_marginLeft="216dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginRight="18dp"
+        android:background="#00FFFFFF" />
+
+    <EditText
+        android:id="@+id/edit_text_file_name11"
+        android:layout_width="319dp"
+        android:layout_height="337dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="37dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="88dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginRight="37dp"
+        android:fontFamily="@font/acme"
+        android:hint=" Share your thoughts, experiences and your
+ advice withyour children, anonymously. Let us
+  create a safe and supportive community full of love."
+        android:textColorHint="#F3EA9F" />
+
+    <ImageView
+        android:id="@+id/image_view11"
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="202dp"
+        android:layout_marginLeft="202dp"
+        android:layout_marginTop="448dp"
+        android:layout_marginEnd="19dp"
+        android:layout_marginRight="19dp" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar11"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="200dp"
+        android:layout_height="10dp"
+        android:layout_below="@+id/button_choose_image11"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="43dp"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="43dp"
+        android:layout_marginRight="43dp" />
+
+    <Button
+        android:id="@+id/button_upload11"
+        android:layout_width="120dp"
+        android:layout_height="43dp"
+        android:layout_below="@+id/progress_bar11"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="137dp"
+        android:layout_marginLeft="137dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginRight="120dp"
+        android:layout_marginBottom="0dp"
+        android:background="#00FFFFFF" />
+
+    <TextView
+        android:id="@+id/text_view_show_uploads11"
+        android:layout_width="120dp"
+        android:layout_height="47dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="755dp"
+        android:background="#00FFEB3B"
+        android:fontFamily="@font/acme"
+        android:text="BLOGS"
+        android:layout_marginLeft="6dp"
+        android:textColor="#FFEB3B"
+        android:textSize="18sp" />
+
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ImAble1</string>
+    <string name="navigation_drawer_open">open navigation drawer</string>
+    <string name="navigation_drawer_close">close navigation drawer</string>
+    <string name="title_activity_emergency">Map</string>
+    <string name="title_activity_mapschecker">Map</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="GetLocation">Get Location</string>
+    <string name="LocationDisplay">Location Displayed Here...</string>
+    <string name="Latitude">Latitude</string>
+    <string name="Longitude">Longitude</string>
+    <string name="title_activity_habijabi">Map</string>
+</resources>

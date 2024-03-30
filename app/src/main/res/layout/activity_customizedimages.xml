@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+xmlns:tools="http://schemas.android.com/tools"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:padding="6dp"
+    android:background="@drawable/customimagecaption"
+tools:context=".customizedimages">
+
+    <Button
+        android:id="@+id/backtooohomepage"
+        android:layout_width="51dp"
+        android:layout_height="48dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+
+        android:background="@drawable/back_button" />
+
+    <ImageView
+        android:layout_width="72dp"
+        android:layout_height="59dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="323dp"
+        android:layout_marginLeft="323dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="0dp"
+        android:background="@drawable/applogo" />
+
+
+    <Button
+        android:id="@+id/button_choose_image"
+        android:layout_width="148dp"
+        android:layout_height="wrap_content"
+
+        android:layout_below="@+id/image_view"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-1dp"
+        android:layout_marginEnd="132dp"
+        android:layout_marginRight="132dp"
+        android:background="#00FFFFFF" />
+
+    <EditText
+        android:id="@+id/edit_text_file_name"
+        android:layout_width="356dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="111dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginRight="17dp"
+        android:hint="Enter action name" />
+
+    <ImageView
+        android:id="@+id/image_view"
+        android:layout_width="wrap_content"
+        android:layout_height="412dp"
+        android:layout_below="@+id/edit_text_file_name"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="41dp"
+        android:layout_marginLeft="41dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="53dp"
+        android:layout_marginRight="53dp" />
+
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/button_upload"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="5dp"
+
+        android:layout_marginBottom="7dp" />
+
+    <Button
+        android:id="@+id/button_upload"
+        android:layout_width="208dp"
+        android:layout_height="64dp"
+
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="84dp"
+        android:layout_marginRight="84dp"
+
+        android:background="#00FFFFFF" />
+
+    <TextView
+        android:id="@+id/text_view_show_uploads"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button_upload"
+        android:layout_alignBottom="@+id/button_upload"
+        android:layout_marginStart="125dp"
+        android:layout_marginLeft="125dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:layout_toEndOf="@+id/button_upload"
+        android:layout_toRightOf="@+id/button_upload"
+        android:gravity="center"
+        android:visibility="gone"
+        android:textSize="16sp" />
+</RelativeLayout>

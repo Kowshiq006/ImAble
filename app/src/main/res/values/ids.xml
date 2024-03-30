@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="button_settings" type="id" />
+    <item name="text_view_curs" type="id" />
+    <item name="button_logo" type="id" />
+    <item name="button_play_prev" type="id" />
+    <item name="button_20" type="id" />
+    <item name="button_21" type="id" />
+    <item name="button_22" type="id" />
+    <item name="button_00" type="id" />
+    <item name="button_01" type="id" />
+    <item name="button_02" type="id" />
+    <item name="button_10" type="id" />
+    <item name="button_11" type="id" />
+    <item name="button_12" type="id" />
+    <item name="button_next_page" type="id" />
+    <item name="button_add_new" type="id" />
+</resources>
